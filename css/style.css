@@ -1,7 +1,7 @@
 @font-face{
     font-family: "Open Sans";
-    src: url("../font/OpenSans-Bold.ttf"), url("../font/OpenSans-ExtraBold.ttf"),
-         url("../font/OpenSans-Italic.ttf"), url("../font/OpenSans-Regular.ttf"), url("../font/OpenSans-Regular.ttf");
+    src: url("../fonts/OpenSans-Bold.ttf"), url("../fonts/OpenSans-ExtraBold.ttf"),
+         url("../fonts/OpenSans-Italic.ttf"), url("../fonts/OpenSans-Regular.ttf"), url("../fonts/OpenSans-Regular.ttf");
 }
 /*----- Document CSS -----*\
 \*------------------------*/
@@ -58,36 +58,36 @@ p{
 }
 
 nav.menu{
-    background-color: black;
-    height: 40px;
+    background-color: #202020;
+    height: 50px;
 }
 
 nav.menu ul{
-    display: inline-block;
+    display: block;
     margin: 0;
+    padding: 0;
 }
 
 nav.menu ul li{
     display: inline-block;
-    width: 100%;
-    padding: 0.5% 20%;
+    width: auto;
+    margin: 1% 5%;
 }
 
-nav.menu ul > li a:hover{
-    
+nav.menu ul li:hover{
+    background-color: #fff;
 }
 
 nav.menu ul li a:link, nav.menu ul li a:visited, nav.menu ul li a:active{
-    display: inline-block;
+    display: block;
     color: #fff;
     font-size: 1.5em;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.5;
-    margin: 0 1.5%;
-    padding: 2.5px 2%;
+    margin: 0;
+    padding: 0;
     text-decoration: none;
-    
 }
 
 nav.menu ul li a:hover{
