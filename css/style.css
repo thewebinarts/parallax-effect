@@ -94,7 +94,6 @@ nav.menu ul li a:link, nav.menu ul li a:visited, nav.menu ul li a:active{
 nav.menu ul li a:hover{
     color: darkgray;
     transition: all 0.3s ease-in-out;
-    background-color: white;
 }
 
 
